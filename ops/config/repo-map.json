@@ -1,0 +1,38 @@
+{
+  "repos": [
+    {
+      "name": "business",
+      "path": "/Users/YOUR_USERNAME/helm/business",
+      "type": "core"
+    },
+    {
+      "name": "ops",
+      "path": "/Users/YOUR_USERNAME/helm/ops",
+      "type": "core"
+    },
+    {
+      "name": "personal",
+      "path": "/Users/YOUR_USERNAME/helm/personal",
+      "type": "core"
+    },
+    {
+      "name": "financial",
+      "path": "/Users/YOUR_USERNAME/helm/financial",
+      "type": "core"
+    },
+    {
+      "name": "hub",
+      "path": "/Users/YOUR_USERNAME/helm/hub",
+      "type": "core"
+    }
+  ],
+  "projects": {
+    "example-project": {
+      "path": "/Users/YOUR_USERNAME/helm/projects/example-project",
+      "client": "Example Corp",
+      "status": "active",
+      "type": "web-development"
+    }
+  },
+  "note": "Add your actual project entries in the 'projects' object. Each project maps to a git repo in ~/helm/projects/{project-name}/"
+}

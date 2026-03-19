@@ -1,0 +1,47 @@
+# Personal and client data (NEVER commit these)
+business/memory/clients.md
+business/memory/pricing-history.md
+business/proposals/
+business/contracts/
+business/communications/
+personal/plan.md
+personal/personal-ops.md
+personal/inbox.md
+personal/health/tracking.md
+personal/people/
+personal/decisions/
+financial/financial-ops.md
+financial/checklists/
+financial/receipts/
+financial/invoices/
+financial/tax-prep/
+ops/projects/*.md
+!ops/projects/example-project.md
+ops/business-ops.md
+ops/daily/
+ops/config/hub-settings.json
+
+# Credentials and secrets
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+package-lock.json
+
+# Editor
+.vscode/settings.json
+*.swp
+*.swo
+*~
+
+# Logs
+hub/logs/
+*.log
