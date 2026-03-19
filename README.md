@@ -50,7 +50,7 @@ Claude Code reads and writes it natively. Git gives version history. Files are h
                            │ writes context
                            v
 ┌──────────┐    ┌─────────────────────┐    ┌──────────────┐
-│ Personal │───>│    ops/ (shared)     │<───│  Financial   │
+│ Personal │───>│    ops/ (shared)    │<───│  Financial   │
 │ plan.md  │    │                     │    │  calendar    │
 └──────────┘    │  projects/*.md      │    └──────────────┘
                 │  daily/*.md         │
